@@ -1,0 +1,294 @@
+@charset "utf-8";
+@media all and (min-width:768px) and (max-width:1024px) {
+    *{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    color: #202020;
+    text-decoration: none;
+    list-style: none;
+    }
+    h2 {
+        font-size: 70px;
+        font-family: 'timonsori'
+    }
+    h3 {
+        font-size: 50px;
+        font-family: 'timonsori';
+        margin-bottom: 20px;
+    }
+    h4 {
+        font-size: 30px;
+        color: #b90b19;
+        font-family: 'timonsori';
+        margin-bottom: 20px;
+    }
+    p {
+        font-family:'sandol';
+        font-size: 24px;
+        line-height: 120%;
+    }
+    a {
+        font-family: 'timonsori';
+    }
+    @font-face {
+        font-family:'timonsori';
+        src: url('../font/TmonMonsori.ttf');
+        font-style:normal;
+        font-weight:normal;
+    }
+    @font-face {
+        font-family:'sandol';
+        src: url('../font/AppleSDGothicNeoR.ttf');
+        font-style:normal;
+        font-weight:normal;
+    }
+    body {
+        width: 100%;
+        height: 100%;
+        position: relative;
+    }
+    
+    /*on*/
+    .wrap-on {
+        width: 100%;
+        height: auto;
+        position: relative;
+        display: none;
+    }
+    .menu {
+        width: 100%;
+        height: 1024px;
+        background-color: rgba(255,255,255,0.95);
+        position: absolute;
+        top: 0px;
+    }
+    .closebt {
+        width: 50px;
+        position: absolute;
+        top: 30px;
+        right: 40px;
+    }
+    .manu-inner {
+        text-align: center;
+        padding-top: 90px;
+    }
+    .big-memu {
+        font-size: 70px;
+        line-height: 100px;
+        display: inline-block;
+        width: 400px;
+        height: 100px;
+    }
+    .big-memu:active {
+        background-color: #da0112;
+        color: white;
+    }
+    .smal-menu {
+        font-size: 40px;
+        line-height: 200%;
+    }
+    .smal-menu li a:active {
+        color: #da0112;
+    }
+    /*header*/
+    header {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+    .head-inner {
+        width: 100%;
+        height: auto;
+        position: absolute;
+        top: 0px;
+        padding-top: 40px;
+        text-align: center;
+        z-index: 501;
+    }
+    .head-inner h1 a img {
+        width: 280px;
+        height: auto;
+        position: absolute;
+        left: 50%;
+        margin-left: -140px;
+    }
+    .menu-bt {
+        position: absolute;
+        right: 10%;
+    }
+    /*benner*/
+    .benner {
+        width: 100%;
+        height: 1024px;
+        position: absolute;
+        top: 0px;
+        text-align: center;
+    }
+    .bennerimg {
+        position: absolute;
+        top: 0px;
+        left: 5%;;
+        width: 90%;
+        height: 1024px;
+        filter: drop-shadow(5px 5px 5px #5c3a3d);   
+    }
+    .bennerft {
+        z-index: 500;
+        position: absolute;
+        top: 224px;
+        left: 50%;
+        margin-left: -270px;
+        font-size: 90px;
+        color: white;
+        text-shadow: 6px 6px 6px #585858;
+    }
+    .bennerft br {
+        display: none;
+    }
+    .bennerst {
+        display: inline-block;
+        position: absolute;
+        top: 350px;
+        left: 50%;
+        margin-left: -196px;
+        z-index: 500;
+        font-size: 60px;
+        color: white;
+        text-shadow: 6px 6px 6px #585858;
+        line-height: 130%;
+    }
+    .benner-text a {
+        display: inline-block;
+        width: 430px;
+        height: 100px;
+        background-color: white;
+        position: absolute;
+        top: 600px;
+        z-index: 500;
+        font-size: 40px;
+        line-height: 100px;
+        left: 50%;
+        margin-left: -215px;
+    }
+    .benner-text {
+        width: 100%;
+        height: 1500px;
+        background-color: #da0112;
+    }
+    .benner-back {
+        display: none;
+    }
+    /*sections*/
+    .sections {
+        width: 100%;
+        height: 9000px;
+        background: linear-gradient(90deg, #f2e9e2 50%, white 50%);
+    }
+    /*section3*/
+    .s3 {
+        width: 100%;
+        height: auto;
+        position: absolute;
+        top: 1024px;
+        padding-top: 50px;
+        text-align: center;
+    }
+    .s3 h2 br:first-child {
+        display: none;
+    }
+    .s3 h2 {
+        color: white;
+    }
+    .s3mt br:first-child {
+        display: none;
+    }
+    .s3-1img {
+        width: 100%;
+        height: auto;
+        position: absolute;
+        left: 0px;
+        top: 250px;
+    }
+    .s3-1text {
+        width: 749px;
+        height: 500px;
+        position: absolute;
+        right: 0px;
+        top: 650px;
+        background-color: rgba(255,255,255,0.9);
+        padding: 50px 40px 50px 40px;
+    }
+    .s3bt1 {
+        display: inline-block;
+        width: 430px;
+        height: 100px;
+        background-color: #da0112;
+        position: absolute;
+        color: white;
+        font-size: 24px;
+        line-height: 100px;
+        top: 1020px;
+        left: 50%;
+        margin-left: -215px;
+    }
+    .bn-colorbox2 {
+        width: 100%;
+        height: 48px;
+        position: absolute;
+        top: 1200px;
+        background-color: #da0112;
+    }
+    .s3-2img {
+        width: 100%;
+        height: auto;
+        position: absolute;
+        top: 1248px;
+        left: 0px;
+    }
+    .s3-2text {
+        width: 749px;
+        height: 550px;
+        position: absolute;
+        left: 0px;
+        top: 1600px;
+        background-color: rgba(255,255,255,0.9);
+        padding: 50px 40px 50px 40px;
+    }
+    .s3bt2 {
+        display: inline-block;
+        width: 430px;
+        height: 100px;
+        background-color: #da0112;
+        position: absolute;
+        color: white;
+        font-size: 24px;
+        line-height: 100px;
+        top: 2010px;
+        left: 50%;
+        margin-left: -215px;
+    }
+    .s3-3img {
+        width: 100%;
+        height: auto;
+        position: absolute;
+        top: 2200px;
+        left: 0px;
+    }
+    /*s4*/
+    .s4 {
+        width: 100%;
+        height: 3000px;
+        background-color: #da0112;
+        padding-top: 50px;
+        position: absolute;
+        top: 3850px;
+        text-align: center;
+    }
+    .s4 h2 br {
+        display: none;
+    }
+    .s4 h2 {
+        color: white;
+    }
+}
